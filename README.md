@@ -1,5 +1,10 @@
 ﻿# titanic-mlops
 
+<img width="870" height="594" alt="image" src="https://github.com/user-attachments/assets/ff3eab3b-c50a-49c7-ba66-4d13f29a0eb0" />
+
+
+
+
 
 
 
