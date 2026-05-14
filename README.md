@@ -72,6 +72,7 @@ To run the application :
 use : Curl command :---- $body = '{\"age\": 27, \"fare\": 800}'
 curl.exe -X POST "http://127.0.0.1:5000/predict" -H "Content-Type: application/json" -d $body
 
+<img width="1098" height="180" alt="image" src="https://github.com/user-attachments/assets/4d871eeb-1442-4ee1-935c-b75e2605716a" />
 
 
 
