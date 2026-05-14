@@ -55,6 +55,13 @@ Great observation! You're questioning the logic of the model — and this is a r
 Short answer — Not exactly
 The model doesn't follow a simple rule like:
 
+"young age + more money = survive"
+
+It learned statistical patterns from 891 real Titanic passengers. What it actually found was:
+
+
+
+
 
 
 
@@ -66,9 +73,7 @@ use : Curl command :---- $body = '{\"age\": 27, \"fare\": 800}'
 curl.exe -X POST "http://127.0.0.1:5000/predict" -H "Content-Type: application/json" -d $body
 
 
-"young age + more money = survive"
 
-It learned statistical patterns from 891 real Titanic passengers. What it actually found was:
 
 Higher Fare → more likely to survive (1st class passengers had better access to lifeboats)
 Younger Age → slightly more likely to survive (children were prioritized)
